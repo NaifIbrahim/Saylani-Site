@@ -1,0 +1,36 @@
+*{ 
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.navdiv {
+    margin-top: 8px;
+    height: 20px;
+    width: 100vw;
+    background-color: antiquewhite;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+.maindiv{
+    background-color: antiquewhite;
+    display: flex;
+}
+.lists{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+.lists ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    background-color: antiquewhite;
+    gap:20px;
+}
